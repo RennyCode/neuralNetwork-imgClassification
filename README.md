@@ -23,6 +23,14 @@ For each model we preduce a prediciton and see example where the predictions wer
 For a network with a convolotion layer we plot the activation map that is created in the procces.
 
 
+<div style = "padding-bottom: 150; padding-top: 150;">
+  <p align="center">
+    <img src="/pic1.png"  style = " height: 350;  display:block; width:30%;"/>
+    <img src="/pic2.png"  style = " height: 350;  display:block; width:30%;"/>
+   </p>
+</div>
+
+
 ## Theory on one leg
 The idea is to embbed the data of the pixcels of the input in such a way that our network could classify it a number, to do so we go through the image with fillters that samples the image.
 One way of looking at it that a certain flitter is incharge of recognizing a particular pattern in the image such a a right egde then deeper in the network layers can represent combination of thouse founded elements, even though it's not practical to try and follow the roll of each fillter in deeper networks the idea still holds.
