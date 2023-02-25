@@ -1,26 +1,26 @@
 # neuralNetwork_imgClassification
-This project demonstate how we can use convolution network to classify images, using the MNIST dataset we'll calssify images of number to the matching number category,
-in simple terms a image of and 8 number will be classified as and 8 value.
+This project demonstrate how we can use convolution network to classify images, using the MNIST dataset we'll classify images of number to the matching number category,
+in simple terms an image of and 8 number will be classified as and 8 value.
 
 ## Workflow
-- Data preperation
+- Data preparation
 - Model building and training
 - Evaluate models
-- Showing the models prediction and activation maps of the convolotion layers.
+- Showing the model's prediction and activation maps of the convolution layers.
 
 ## Models
 - m1 - no hidden layers at all
 - m2 - two hidden layers (no convolution)
-- m3 - convolution network with a single covolotion layer and a two maxpools and linear layers
-- m4 - same as m3 but with differnt sizes channelsSS
+- m3 - convolution network with a single convolution layer and a two maxpools and linear layers
+- m4 - same as m3 but with different sizes channels
 - m5 - m3 with a higher drop rate
 - m6 - m4 with higher drop rate
 
-reminder -> drop rate is the precentage of random neurorns that won't participate in training (different ones for each epoch)
+reminder -> drop rate is the percentage of random neurons that won't participate in training (different ones for each epoch)
 
-## Resuslt
-For each model we preduce a prediciton and see example where the predictions wer'e wrong.
-For a network with a convolotion layer we plot the activation map that is created in the procces.
+## Results
+For each model we produce a prediction and see an example where the predictions were wrong.
+For a network with a convolution layer, we plot the activation map that is created in the process.
 
 
 <div style = "padding-bottom: 150; padding-top: 150;">
